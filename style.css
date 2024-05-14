@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orangered;
+    color: gray;
+    }
+
+header {
+    color: gray;
+    padding: 1em 0;
+    text-align: center;
+    }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    }
+
+.playlist {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 320px;
+    }
+
+.playlist h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    }
+
+iframe {
+    border: none;
+    border-radius: 5px;
+    }
